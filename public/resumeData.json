@@ -1,0 +1,168 @@
+{
+  "main": {
+    "name":"Facundo Rossi",
+    "occupation":"I'm a software engineer based in Córdoba, Argentina. I'm really enjoying the challenges that my profession involve, I take it as a great opportunity for continuing to grow as a person and professional.",
+    "image":"profilepic.jpg",
+    "bio": "I'm a software engineer based in Córdoba, Argentina. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+    "email": "rossifacundo94@gmail.com",
+    "phone": "+54 9 351401924",
+    "address":{
+      "street":"864 Independencia",
+      "city":"Córdoba",
+      "state":"Argentina",
+      "zip": "5000"
+    },
+    "resumedownload":"#",
+    "social":[
+        {
+          "name":"github",
+          "url":"https://github.com/FacuRossi",
+          "className":"fa fa-github"
+        },
+        {
+            "name":"linkedin",
+            "url":"http://www.linkedin.com/in/facundo-rossi",
+            "className":"fa fa-linkedin"
+        },
+        {
+            "name":"twitter",
+            "url":"https://twitter.com/FacuRossi4",
+            "className":"fa fa-twitter"
+        },
+        {
+            "name":"instagram",
+            "url":"https://www.instagram.com/facu.rossi_/",
+            "className":"fa fa-instagram"
+        }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"National Technological University",
+        "degree":"Information System Engineering",
+        "graduated":"December 2017",
+        "description":"Completed and graduated with the Information Systems Engineer degree at the National Technological University of Córdoba, Argentina"
+      }
+    ],
+    "work":[
+      {
+        "company":"SimTLiX S.R.L",
+        "title":"Software Developer",
+        "years":"May 2017 - present",
+        "description":"Senior Photographer undertaking all aspects including strobes , photojournalism, documentary photography, Advanced Photoshop editing, and managed a team of Junior staff in a large commercial studio."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Photoshop",
+        "level":"40%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"25%"
+      },
+      {
+        "name":"Photography",
+        "level":"70%"
+      },
+      {
+        "name":"Branding",
+        "level":"30%"
+      },
+      {
+        "name":"Education",
+        "level":"50%"
+      }
+
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Mystic",
+        "description":"An image taking for a commercial project",
+        "category":"Photoshop",
+        "tags":"Branding, Web Design",
+        "image":"mystic.jpg",
+        "url":"http://port1.com",
+        "modal":"#modal-01"
+      },
+      {
+        "title":"Console",
+        "description":"A project for a travel blog taking with a digital camera and edited in photoshop.",
+        "category":"Photograhy",
+        "tags":"Branding, Photography",
+        "image":"console.jpg",
+        "url":"http://port2.com",
+        "modal":"#modal-02"
+      },
+      {
+        "title":"Judah",
+        "description":"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
+        "category":"Photoshop, Photography",
+        "tags":"Branding, Photography",
+        "image":"judah.jpg",
+        "url":"http://port3.com",
+        "modal":"#modal-03"
+      },
+      {
+        "title":"Into The Light",
+        "description":"Photojournalist imagery taken for a magazine documenting the history of the sport .",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"into-the-light.jpg",
+        "url":"http://port4.com",
+        "modal":"#modal-04"
+      },
+      {
+        "title":"Carlmer",
+        "description":"An editorial image for a top fashion magazine",
+        "category":"Branding",
+        "tags":"Branding,Photography",
+        "image":"carlmer.jpg",
+        "url":"http://port5.com",
+        "modal":"#modal-05"
+      },
+      {
+        "title":"Forgotten",
+        "description":"A documentary image as part of a larger project for an international charity.",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"forgotten.jpg",
+        "url":"http://port6.com",
+        "modal":"#modal-06"
+      },
+      {
+        "title":"The Street",
+        "description":"This image was for a commercial stylist and magazine editorial.",
+        "category":"Photography",
+        "tags":"Branding, Photoshop",
+        "image":"thestreet.jpg",
+        "url":"http://port7.com",
+        "modal":"#modal-07"
+      },
+      {
+        "title":"The young one",
+        "description":"This image was taken for a world wide Fashion store specialising in menswear.",
+        "category":"Photography",
+        "tags":"Photography",
+        "image":"theyoungone.jpg",
+        "url":"http://port8.com",
+        "modal":"#modal-08"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"We used Henri to take images on our behalf for a recent multi-million pound project. He completely understood the brief and his shots were well taken, striking and wonderfully framed. Henri is a punctual, polite and trustworthy individual who I wouldn’t hesitate to recommend to others as we will definitely be using him for future projects. He is a pleasure to work with.",
+        "user":"Laura Evans"
+      },
+      {
+        "text":"We approached Henri with an 11th hour request to photograph a building we had just re-branded. We were on a very tight deadline to produce the promotional material, ready for a launch party the following week. Henri was incredibly accommodating, and made himself available for the following day The photographs were excellent and met with the client’s approval, so much so that he also became the photographer for the launch event! Henri is highly personable and professional and I have no hesitation in recommending him.",
+        "user":"Steven Lauder (Director)"
+      }
+    ]
+  }
+}
