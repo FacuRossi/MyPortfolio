@@ -46,10 +46,16 @@ class Resume extends Component {
             let nameLowerCase = skill.name.toLowerCase()
             let className = `bar-expand ${nameLowerCase}`
             return (
-                <li key={skill.name}>
-                    <span style={{width:skill.level}} className={className}></span>
-                    <em>{skill.name}</em>
-                </li>
+                <div key={skill.name} className='skillbar clearfix' data-percent={skill.level}>
+                	<div className='skillbar-title'>
+                        <span>{skill.name}</span>
+                    </div>
+                	<div className='skillbar-bar'></div>
+                </div>
+                // <li key={skill.name}>
+                //     <span style={{width:skill.level}} className={className}></span>
+                //     <em>{skill.name}</em>
+                // </li>
             )
         })
 

@@ -18,6 +18,14 @@
 
 	    var target = this.hash,
 	    $target = $(target);
+        console.log(target)
+        if($target === "resume") {
+            jQuery('.skillbar').each(function(){
+           		jQuery(this).find('.skillbar-bar').animate({
+           			width:jQuery(this).attr('data-percent')
+           		},6000);
+           	});
+        }
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
@@ -25,34 +33,6 @@
 	        window.location.hash = target;
 	    });
 	});
-
-
-/*----------------------------------------------------*/
-/* Highlight the current section in the navigation bar
-------------------------------------------------------*/
-    //
-	// var sections = $("section");
-	// var navigation_links = $("#nav-wrap a");
-    //
-	// sections.waypoint({
-    //
-    //   handler: function(event, direction) {
-    //
-	// 	   var active_section;
-    //
-	// 		active_section = $(this);
-	// 		if (direction === "up") active_section = active_section.prev();
-    //
-	// 		var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-    //
-    //      navigation_links.parent().removeClass("current");
-	// 		active_link.parent().addClass("current");
-    //
-	// 	},
-	// 	offset: '35%'
-    //
-	// });
-
 
 /*----------------------------------------------------*/
 /*	Make sure that #header-background-image height is
@@ -66,6 +46,12 @@
         $('body').css({ 'width': $(window).width() })
    });
 
+/*----------------------------------------------------*/
+/*	Skill-Bar Animation
+------------------------------------------------------*/
+   // jQuery(document).ready(function(){
+   //
+   // });
 
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
