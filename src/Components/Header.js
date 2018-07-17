@@ -36,13 +36,25 @@ class Header extends Component {
                     </ul>
                 </nav>
                 <div className="row banner">
+                    <div className="animate animationOne">
+    			        <span>F</span>
+                        <span>a</span>
+                        <span>c</span>
+                        <span>u</span>
+    			        <span>n</span>
+                        <span>d</span>
+                        <span>o</span>&nbsp;
+                        <span>R</span>
+                        <span>o</span>
+                        <span>s</span>
+                        <span>s</span>
+                        <span>i</span>
+    		        </div>
                     <div className="banner-text">
-                        <h1 className="responsive-headline">{this.state.name}</h1>
                         <h3><span>{this.state.occupation}</span></h3>
-                        <hr/>
                         <ul className="social">
-                      {networks}
-                    </ul>
+                          {networks}
+                        </ul>
                     </div>
                 </div>
                 <p className="scrolldown">

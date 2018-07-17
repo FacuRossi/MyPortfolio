@@ -1,5 +1,5 @@
  jQuery(document).ready(function($) {
-
+     var barRendered = false;
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
@@ -18,14 +18,6 @@
 
 	    var target = this.hash,
 	    $target = $(target);
-        console.log(target)
-        if($target === "resume") {
-            jQuery('.skillbar').each(function(){
-           		jQuery(this).find('.skillbar-bar').animate({
-           			width:jQuery(this).attr('data-percent')
-           		},6000);
-           	});
-        }
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
@@ -47,19 +39,35 @@
    });
 
 /*----------------------------------------------------*/
-/*	Skill-Bar Animation
+/*	Repeat Text Animation
 ------------------------------------------------------*/
-   // jQuery(document).ready(function(){
-   //
-   // });
+        // $(function(){
+        // $('.repeatAnimation').click(function(){
+        //     var classes =  $(this).parent().attr('class');
+        //     $(this).parent().attr('class', 'animate');
+        //     var indicator = $(this);
+        //     setTimeout(function(){
+        //         $(indicator).parent().addClass(classes);
+        //     }, 20);
+        // });
+        // });
 
 /*----------------------------------------------------*/
 /*	Fade In/Out Primary Navigation
 ------------------------------------------------------*/
 
    $(window).on('scroll', function() {
+        var portOffset = $('#portfolio').offset();
         var h = $('header').height();
 	    var y = $(window).scrollTop();
+        if(y > portOffset.top/2 && !barRendered) {
+            jQuery('.skillbar').each(function(){
+                jQuery(this).find('.skillbar-bar').animate({
+                    width:jQuery(this).attr('data-percent')
+                },6000);
+            });
+            barRendered = true
+        }
         var nav = $('#nav-wrap');
         if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
 	        nav.fadeOut('fast');

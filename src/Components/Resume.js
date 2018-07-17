@@ -43,8 +43,6 @@ class Resume extends Component {
         })
 
         const skills = this.state.skills.map(skill => {
-            let nameLowerCase = skill.name.toLowerCase()
-            let className = `bar-expand ${nameLowerCase}`
             return (
                 <div key={skill.name} className='skillbar clearfix' data-percent={skill.level}>
                 	<div className='skillbar-title'>
@@ -52,10 +50,6 @@ class Resume extends Component {
                     </div>
                 	<div className='skillbar-bar'></div>
                 </div>
-                // <li key={skill.name}>
-                //     <span style={{width:skill.level}} className={className}></span>
-                //     <em>{skill.name}</em>
-                // </li>
             )
         })
 
