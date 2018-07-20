@@ -1,59 +1,59 @@
 {
-    "name": "my-portfolio",
-    "version": "1.0.0",
-    "private": true,
-    "description": "Single page resume using React",
-    "author": {
-        "name": "Facundo Rossi",
-        "email": "rossifacundo94@gmail.com"
-    },
-    "keywords": [
-        "React",
-        "single-page",
-        "scroll",
-        "contactForm"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:FacuRossi/MyPortfolio.git"
-    },
-    "devDependencies": {
-        "babel-eslint": "^8.2.6",
-        "eslint": "^5.1.0",
-        "eslint-config-prettier": "^2.9.0",
-        "eslint-plugin-flowtype": "^2.50.0",
-        "eslint-plugin-import": "^2.13.0",
-        "eslint-plugin-jsx-a11y": "^6.1.1",
-        "eslint-plugin-prettier": "^2.6.2",
-        "eslint-plugin-react": "^7.10.0",
-        "gh-pages": "^0.12.0",
-        "lint-staged": "^7.2.0",
-        "husky": "^0.14.3",
-        "prettier": "^1.13.7",
-        "react-scripts": "0.7.0"
-    },
-    "dependencies": {
-        "jquery": "^3.1.1",
-        "node-sass-chokidar": "^1.3.0",
-        "npm-run-all": "^4.1.3",
-        "react": "^16.4.1",
-        "react-dom": "^16.4.1"
-    },
-    "scripts": {
-        "precommit": "lint-staged",
-        "build-css": "node-sass-chokidar src/ -o src/",
-        "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-        "start-js": "react-scripts start",
-        "start": "npm-run-all -p watch-css start-js",
-        "build": "npm run build-css && react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "deploy": "gh-pages -d build"
-    },
-    "lint-staged": {
-        "src/**/*.{js,jsx,json,css}": [
-            "prettier --single-quote --write",
-            "git add"
-        ]
-    }
+	"name": "my-portfolio",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Single page resume using React",
+	"author": {
+		"name": "Facundo Rossi",
+		"email": "rossifacundo94@gmail.com"
+	},
+	"keywords": [
+		"React",
+		"single-page",
+		"scroll",
+		"contactForm"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:FacuRossi/MyPortfolio.git"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.2.6",
+		"eslint": "^5.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-flowtype": "^2.50.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-prettier": "^2.6.2",
+		"eslint-plugin-react": "^7.10.0",
+		"gh-pages": "^0.12.0",
+		"husky": "^0.14.3",
+		"lint-staged": "^7.2.0",
+		"prettier": "^1.13.7",
+		"react-scripts": "0.7.0"
+	},
+	"dependencies": {
+		"jquery": "^3.1.1",
+		"node-sass-chokidar": "^1.3.0",
+		"npm-run-all": "^4.1.3",
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1"
+	},
+	"scripts": {
+		"precommit": "lint-staged",
+		"build-css": "node-sass-chokidar src/ -o src/",
+		"watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+		"start-js": "react-scripts start",
+		"start": "npm-run-all -p watch-css start-js",
+		"build": "npm run build-css && react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"deploy": "gh-pages -d build"
+	},
+	"lint-staged": {
+		"src/**/*.{js,jsx,json,css}": [
+			"prettier --single-quote --write",
+			"git add"
+		]
+	}
 }
