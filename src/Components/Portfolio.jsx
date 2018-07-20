@@ -4,11 +4,11 @@ class Portfolio extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            projects : this.props.data.projects
+            projects: this.props.data.projects
         }
     }
     render() {
-        const projects = this.state.projects.map(project => {
+        const projects = this.state.projects.map((project) => {
             var imageUrl = `images/portfolio/${project.image}`
             return (
                 <div key={project.title} className="columns portfolio-item">
@@ -31,8 +31,10 @@ class Portfolio extends Component {
                 <div className="row">
                     <div className="twelve columns collapsed">
                         <h1>Check Out Some of My Works.</h1>
-                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                  	         {projects}
+                        <div
+                            id="portfolio-wrapper"
+                            className="bgrid-quarters s-bgrid-thirds cf">
+                            {projects}
                         </div>
                     </div>
                 </div>
