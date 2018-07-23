@@ -223,3 +223,40 @@
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
+
+.about-p {
+	line-height: 35px;
+	color: #191717;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+}
+.address span {
+	margin-left: 15px;
+}
+.address i {
+	font-size: larger;
+}
+
+.profile-pic {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 30%;
+}
+
+.contact-details {
+	margin-top: 10px;
+}
+
+.contact-icons:hover {
+	color: #6bb2c5;
+}
+
+.about-titles:hover {
+	color: #6bb2c5 !important;
+}

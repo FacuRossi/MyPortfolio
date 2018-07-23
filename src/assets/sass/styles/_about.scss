@@ -1,0 +1,36 @@
+.about-p {
+	line-height: 35px;
+	color: $black-custom;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	span {
+		margin-left: 15px;
+	}
+	i {
+		font-size: larger;
+	}
+}
+
+.profile-pic {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 30%;
+}
+
+.contact-details {
+	margin-top: 10px;
+}
+
+.contact-icons:hover {
+	color: $background-ligthBlue;
+}
+
+.about-titles:hover {
+	color: $background-ligthBlue !important;
+}
