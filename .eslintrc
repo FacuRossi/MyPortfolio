@@ -1,6 +1,13 @@
 {
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "rules": {
-        "no-console": "error"
-    }
+	"extends": ["react-app", "plugin:prettier/recommended"],
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"no-console": "error"
+	}
 }

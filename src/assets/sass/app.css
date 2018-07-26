@@ -165,7 +165,7 @@
 .skillbar {
 	position: relative;
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	width: 100%;
 	background: #ededed;
 	height: 35px;
@@ -192,7 +192,6 @@
 	letter-spacing: 1px;
 	top: 0;
 	left: 0;
-	width: 110px;
 	background: #6bb2c5;
 	-webkit-border-top-left-radius: 3px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -257,6 +256,10 @@
 	color: #6bb2c5;
 }
 
-.about-titles:hover {
+.hover-titles:hover {
 	color: #6bb2c5 !important;
+}
+
+.resume-desc {
+	text-align: justify;
 }

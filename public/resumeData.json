@@ -60,29 +60,25 @@
 				"title": "Software Developer",
 				"years": "May 2017 - present",
 				"description":
-					"Senior Photographer undertaking all aspects including strobes , photojournalism, documentary photography, Advanced Photoshop editing, and managed a team of Junior staff in a large commercial studio."
+					"Currently, I'm working as a Software Engineer, in charge of designing, developing and testing apps to accomplish user requirements. I'm participating in all project lifecycle."
 			}
 		],
 		"skills": [
 			{
-				"name": "Photoshop",
-				"level": "40%"
+				"name": "ReactJs",
+				"level": "85%"
 			},
 			{
-				"name": "Illustrator",
-				"level": "25%"
+				"name": "Java - Spring",
+				"level": "80%"
 			},
 			{
-				"name": "Photography",
+				"name": "Web Development",
+				"level": "78%"
+			},
+			{
+				"name": "Continuous Integration",
 				"level": "70%"
-			},
-			{
-				"name": "Branding",
-				"level": "30%"
-			},
-			{
-				"name": "Education",
-				"level": "50%"
 			}
 		]
 	},

@@ -175,7 +175,7 @@ ul#nav li a {
 	line-height: 32px;
 	text-decoration: none;
 	text-align: left;
-	color: #191717;
+	color: #000000;
 
 	-webkit-transition: color 0.2s ease-in-out;
 	-moz-transition: color 0.2s ease-in-out;
@@ -186,9 +186,6 @@ ul#nav li a {
 
 ul#nav li a:active {
 	background-color: transparent !important;
-}
-ul#nav li.current a {
-	color: #0a0a0a;
 }
 
 /* ------------------------------------------------------------------ */
@@ -726,10 +723,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-	background: #191919;
+	background: #fafafa;
 	padding-top: 96px;
 	padding-bottom: 102px;
-	color: #fafafa;
+	color: #000000;
 }
 #contact .section-head {
 	margin-bottom: 42px;

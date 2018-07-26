@@ -23,7 +23,7 @@ class About extends Component {
 			<section id="about">
 				<div className="row">
 					<div className="eight columns main-col">
-						<h2 className="about-titles">About Me</h2>
+						<h2 className="hover-titles">About Me</h2>
 						<p className="about-p">{this.state.bio.parr1}</p>
 						<p className="about-p">{this.state.bio.parr2}</p>
 						<p className="about-p">{this.state.bio.parr3}</p>
@@ -49,7 +49,7 @@ class About extends Component {
 							/>
 						</div>
 						<div className="contact-details">
-							<h2 className="about-titles">Contact Details</h2>
+							<h2 className="hover-titles">Contact Details</h2>
 							<div className="address">
 								<div>
 									<i className="contact-icons fa fa-user" />
