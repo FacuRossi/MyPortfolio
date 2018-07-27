@@ -13,7 +13,7 @@
 				"Besides, I've got involved in DevOps and Continuous Integration tasks working with Jenkins, Docker, AWS, SonarQube for Manage product build lifecycle"
 		},
 		"email": "Rossifacundo94@gmail.com",
-		"phone": "+54 9 351401924",
+		"phone": "+54 9 3406401924",
 		"address": {
 			"street": " 864 Independencia",
 			"city": " Córdoba",
@@ -85,82 +85,28 @@
 	"portfolio": {
 		"projects": [
 			{
-				"title": "Mystic",
-				"description": "An image taking for a commercial project",
-				"category": "Photoshop",
-				"tags": "Branding, Web Design",
-				"image": "mystic.jpg",
-				"url": "http://port1.com",
-				"modal": "#modal-01"
-			},
-			{
-				"title": "Console",
+				"title": "OkTrueque",
 				"description":
-					"A project for a travel blog taking with a digital camera and edited in photoshop.",
-				"category": "Photograhy",
-				"tags": "Branding, Photography",
-				"image": "console.jpg",
-				"url": "http://port2.com",
-				"modal": "#modal-02"
+					"An image taking for a commercial project An image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project ",
+				"button": "Demo",
+				"image": "fish.jpg",
+				"url": "http://port1.com"
 			},
 			{
-				"title": "Judah",
+				"title": "My-Portfolio",
 				"description":
-					"A professional photoshoot for a cosmetic company. Advanced Photoshop retouching.",
-				"category": "Photoshop, Photography",
-				"tags": "Branding, Photography",
-				"image": "judah.jpg",
-				"url": "http://port3.com",
-				"modal": "#modal-03"
+					" An image taking for a commercial project An image taking for a commercial project v vAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project",
+				"button": "Source",
+				"image": "portfolio.jpg",
+				"url": "http://port1.com"
 			},
 			{
-				"title": "Into The Light",
+				"title": "Flickr-Mobile",
 				"description":
-					"Photojournalist imagery taken for a magazine documenting the history of the sport .",
-				"category": "Photography",
-				"tags": "Photography",
-				"image": "into-the-light.jpg",
-				"url": "http://port4.com",
-				"modal": "#modal-04"
-			},
-			{
-				"title": "Carlmer",
-				"description": "An editorial image for a top fashion magazine",
-				"category": "Branding",
-				"tags": "Branding,Photography",
-				"image": "carlmer.jpg",
-				"url": "http://port5.com",
-				"modal": "#modal-05"
-			},
-			{
-				"title": "Forgotten",
-				"description":
-					"A documentary image as part of a larger project for an international charity.",
-				"category": "Photography",
-				"tags": "Photography",
-				"image": "forgotten.jpg",
-				"url": "http://port6.com",
-				"modal": "#modal-06"
-			},
-			{
-				"title": "The Street",
-				"description":
-					"This image was for a commercial stylist and magazine editorial.",
-				"category": "Photography",
-				"tags": "Branding, Photoshop",
-				"image": "thestreet.jpg",
-				"url": "http://port7.com",
-				"modal": "#modal-07"
-			},
-			{
-				"title": "The young one",
-				"description":
-					"This image was taken for a world wide Fashion store specialising in menswear.",
-				"category": "Photography",
-				"tags": "Photography",
-				"image": "theyoungone.jpg",
-				"url": "http://port8.com",
-				"modal": "#modal-08"
+					"An image taking for a commercial project An image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project",
+				"button": "Source",
+				"image": "board.jpg",
+				"url": "http://port1.com"
 			}
 		]
 	},
