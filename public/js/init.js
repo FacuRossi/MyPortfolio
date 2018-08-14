@@ -58,12 +58,6 @@ jQuery(document).ready(function($) {
 		$('body').css({ width: $(window).width() })
 	})
 
-	$('#contact').css({ height: $(window).height() })
-	$(window).on('resize', function() {
-		$('#contact').css({ height: $(window).height() })
-		$('body').css({ width: $(window).width() })
-	})
-
 	/*----------------------------------------------------*/
 	/*	Repeat Text Animation
 ------------------------------------------------------*/

@@ -83,6 +83,13 @@
 	transition-delay: 0s;
 }
 
+.btn-projects {
+	background-color: $black-button !important;
+	&:hover {
+		background-color: $background-ligthBlue !important;
+	}
+}
+
 .slider-content .inner h1 {
 	font: 90px/1.1em 'lato-bold', sans-serif;
 	margin: 0 auto;
@@ -92,9 +99,9 @@
 }
 
 .slider-content .inner p {
-	color: $black-custom;
-	font-size: 14px;
-	line-height: 1.5;
+	color: $black;
+	font-size: 15px;
+	line-height: 2.5;
 	margin: 20px auto 30px;
 	max-width: 640px;
 }

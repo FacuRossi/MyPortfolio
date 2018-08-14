@@ -32,116 +32,30 @@ class Contact extends Component {
 	render() {
 		return (
 			<section id="contact">
-				<div className="row section-head">
-					<div className="two columns header-col">
-						<h1>
-							<span>Get In Touch.</span>
-						</h1>
-					</div>
-					<div className="ten columns">
+				<div className="row">
+					<div className="twelve columns">
 						<p className="lead">
-							Please feel free to contact me and I will return
-							your email so we can keep in touch. Please fill out
-							the form and note * items are required before
-							submission.
+							If you'd like me to get involved with helping your
+							business grow, I'm all ears!
 						</p>
 					</div>
 				</div>
 				<div className="row">
-					<div className="eight columns">
+					<div className="twelve columns">
 						<form
-							onSubmit={this._onSubmit}
+							action="mailto:rossifacundo94@gmail.com"
+							method="GET"
 							id="contactForm"
 							name="contactForm">
 							<fieldset>
 								<div>
-									<label htmlFor="contactName">
-										Name <span className="required">*</span>
-									</label>
-									<input
-										type="text"
-										size="35"
-										id="contactName"
-										placeholder="Name Required"
-										name="inputName"
-										value={this.state.inputName}
-										onChange={this._onChange}
-									/>
-								</div>
-								<div>
-									<label htmlFor="contactEmail">
-										Email{' '}
-										<span className="required">*</span>
-									</label>
-									<input
-										type="text"
-										size="35"
-										id="contactEmail"
-										placeholder="Email Required"
-										name="inputEmail"
-										value={this.state.inputEmail}
-										onChange={this._onChange}
-									/>
-								</div>
-								<div>
-									<label htmlFor="contactSubject">
-										Subject
-									</label>
-									<input
-										type="text"
-										size="35"
-										name="inputSubject"
-										placeholder="Subject Title"
-										id="contactSubject"
-										value={this.state.inputSubject}
-										onChange={this._onChange}
-									/>
-								</div>
-								<div>
-									<label htmlFor="contactMessage">
-										Message{' '}
-										<span className="required">*</span>
-									</label>
-									<textarea
-										cols="50"
-										rows="15"
-										id="contactMessage"
-										placeholder="Main Message"
-										name="inputMessage"
-										value={this.state.inputMessage}
-										onChange={this._onChange}
-									/>
-								</div>
-								<div>
-									<button type="submit" className="submit">
-										Submit
+									<button type="submit" class="submit">
+										Send Email
 									</button>
-									<span id="image-loader">
-										<img alt="" src="images/loader.gif" />
-									</span>
 								</div>
 							</fieldset>
 						</form>
-						<div id="message-warning"> Error boy</div>
-						<div id="message-success">
-							<i className="fa fa-check" />Your message was sent,
-							thank you!<br />
-						</div>
 					</div>
-					<aside className="four columns footer-widgets">
-						<div className="widget widget_contact">
-							<h4>Address and Phone</h4>
-							<p className="address">
-								{this.state.name}
-								<br />
-								{this.state.street} <br />
-								{this.state.city}, {this.state.state}{' '}
-								{this.state.zip}
-								<br />
-								<span>{this.state.phone}</span>
-							</p>
-						</div>
-					</aside>
 				</div>
 			</section>
 		)

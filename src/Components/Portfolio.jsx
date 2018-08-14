@@ -25,7 +25,9 @@ class Portfolio extends Component {
 							<div className="inner">
 								<h1>{item.title}</h1>
 								<p>{item.description}</p>
-								<button>{item.button}</button>
+								<button className="btn-projects">
+									{item.button}
+								</button>
 							</div>
 						</div>
 					))}

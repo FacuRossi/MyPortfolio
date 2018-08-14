@@ -1,0 +1,52 @@
+#contact button.submit {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: $grey;
+	background: $black-button;
+	border: none;
+	cursor: pointer;
+	height: auto;
+	display: inline-block;
+	border-radius: 3px;
+	margin-left: 26%;
+
+	&:hover {
+		background: $background-ligthBlue !important;
+		color: $black-button !important;
+	}
+
+	@media only screen and (max-width: 767px) {
+		margin: 30px 0 24px 0;
+	}
+	@media only screen and (max-width: 375px) {
+		font: 12px/16px 'lato-bold', sans-serif;
+		letter-spacing: 0px;
+	}
+}
+
+#contact {
+	display: flex;
+	flex-direction: row;
+	background: $grey;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	color: $black-button;
+}
+
+#contact p.lead {
+	font: 20px/28px 'lato-bold', sans-serif;
+	padding-left: 50%;
+	text-align: center;
+	text-align-last: center;
+	margin: 0px;
+	@media only screen and (max-width: 769px) {
+		padding-left: 0px;
+	}
+	@media only screen and (max-width: 375px) {
+		padding-left: 0px;
+		font: 15px/24px 'lato-bold', sans-serif;
+	}
+	&:hover {
+		color: $background-ligthBlue !important;
+	}
+}

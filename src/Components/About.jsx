@@ -14,7 +14,7 @@ class About extends Component {
 			zip: data.address.zip,
 			phone: data.phone,
 			email: data.email,
-			resumeDownload: data.resumeDownload,
+			resumedownload: data.resumedownload,
 		}
 	}
 
@@ -31,7 +31,10 @@ class About extends Component {
 							<div className="columns download">
 								<p>
 									<a
-										href={this.state.resumeDownload}
+										href={
+											process.env.PUBLIC_URL +
+											'/resume.pdf'
+										}
 										className="button">
 										<i className="fa fa-download" />
 										Download Resume
