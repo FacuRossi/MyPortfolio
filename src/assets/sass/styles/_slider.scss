@@ -81,12 +81,21 @@
 .slider-content .inner button {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
+	&:hover {
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+		background-color: $background-ligthBlue !important;
+		color: $black-custom !important;
+	}
 }
 
 .btn-projects {
 	background-color: $black-button !important;
 	&:hover {
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
 		background-color: $background-ligthBlue !important;
+		color: $black-custom !important;
 	}
 }
 
@@ -94,12 +103,12 @@
 	font: 90px/1.1em 'lato-bold', sans-serif;
 	margin: 0 auto;
 	max-width: 840px;
-	color: $black-custom;
+	color: $grey50;
 	line-height: 1;
 }
 
 .slider-content .inner p {
-	color: $black;
+	color: $grey50;
 	font-size: 15px;
 	line-height: 2.5;
 	margin: 20px auto 30px;
@@ -144,6 +153,12 @@
 	-webkit-transform: translateY(20px);
 	transform: translateY(20px);
 	opacity: 0;
+	&:hover {
+		-webkit-transition-delay: 0s;
+		transition-delay: 0s;
+		background-color: $background-ligthBlue !important;
+		color: $black-custom !important;
+	}
 }
 
 .slide p {

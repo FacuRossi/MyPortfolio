@@ -346,24 +346,33 @@
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 }
+.slider-content .inner button:hover {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	background-color: #6bb2c5 !important;
+	color: #191717 !important;
+}
 
 .btn-projects {
 	background-color: #303131 !important;
 }
 .btn-projects:hover {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
 	background-color: #6bb2c5 !important;
+	color: #191717 !important;
 }
 
 .slider-content .inner h1 {
 	font: 90px/1.1em 'lato-bold', sans-serif;
 	margin: 0 auto;
 	max-width: 840px;
-	color: #191717;
+	color: #ededed;
 	line-height: 1;
 }
 
 .slider-content .inner p {
-	color: #000000;
+	color: #ededed;
 	font-size: 15px;
 	line-height: 2.5;
 	margin: 20px auto 30px;
@@ -408,6 +417,12 @@
 	-webkit-transform: translateY(20px);
 	transform: translateY(20px);
 	opacity: 0;
+}
+.slide button:hover {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	background-color: #6bb2c5 !important;
+	color: #191717 !important;
 }
 
 .slide p {
