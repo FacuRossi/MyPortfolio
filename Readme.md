@@ -1,7 +1,6 @@
 ## My Portfolio
 
-=====================
-Hybrid application that offers the possibility to search Flickr users, viewing each of their directories with their photos. It also allows to see comments in them and share them by email. It provides a search system based on preferences and has international support.
+Single page application with a personal website/portfolio. It based on reactJs and It has responsive design.
 
 ## Steps
 
