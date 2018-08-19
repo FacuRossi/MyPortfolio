@@ -87,26 +87,28 @@
 			{
 				"title": "OkTrueque",
 				"description":
-					"An image taking for a commercial project An image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project ",
+					"E-commerce platform where the users could change your things without money. It is developed on Java in spring framework. If you want to see more go to the demo. Also, I share the source code in this  ",
 				"button": "Demo",
 				"image": "fish.jpg",
-				"url": "http://port1.com"
+				"url":
+					"http://ec2-18-222-73-246.us-east-2.compute.amazonaws.com:8080",
+				"sourceLink": "https://github.com/oktrueque/oktrueque"
 			},
 			{
 				"title": "My-Portfolio",
 				"description":
-					" An image taking for a commercial project An image taking for a commercial project v vAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project",
+					"Single page application with a personal website/portfolio. It based on reactJs and It has responsive design.",
 				"button": "Source",
 				"image": "portfolio.jpg",
-				"url": "http://port1.com"
+				"url": "https://github.com/FacuRossi/MyPortfolio"
 			},
 			{
 				"title": "Flickr-Mobile",
 				"description":
-					"An image taking for a commercial project An image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial projectAn image taking for a commercial project",
+					"Hybrid application that offers the possibility to search Flickr users, viewing each of their directories with their photos. It also allows to see comments in them and share them by email. It provides a search system based on preferences and has international support.",
 				"button": "Source",
 				"image": "board.jpg",
-				"url": "http://port1.com"
+				"url": "https://github.com/FacuRossi/FlickrAppIonic"
 			}
 		]
 	},

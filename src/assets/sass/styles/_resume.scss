@@ -1,3 +1,15 @@
 .resume-desc {
 	text-align: justify;
 }
+
+#resume {
+	background: #fafafa;
+	padding-top: 90px;
+	padding-bottom: 72px;
+	overflow: hidden;
+
+	@media only screen and (max-width: 375px) {
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+}

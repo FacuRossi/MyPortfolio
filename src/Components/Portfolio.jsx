@@ -24,10 +24,23 @@ class Portfolio extends Component {
 							}}>
 							<div className="inner">
 								<h1>{item.title}</h1>
-								<p>{item.description}</p>
-								<button className="btn-projects">
+								<p>
+									{item.description}
+									<a
+										href={item.sourceLink}
+										className={
+											item.title !== 'OkTrueque' &&
+											'hide-link'
+										}>
+										Link
+									</a>
+								</p>
+
+								<a
+									href={item.url}
+									className="button btn-projects">
 									{item.button}
-								</button>
+								</a>
 							</div>
 						</div>
 					))}

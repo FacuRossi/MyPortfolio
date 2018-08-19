@@ -191,14 +191,6 @@ ul#nav li a:active {
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
-
-#about {
-	background: #f2f1f0;
-	padding-top: 125px;
-	padding-bottom: 66px;
-	overflow: hidden;
-}
-
 #about a,
 #about a:visited {
 	color: #fafafa;
@@ -237,14 +229,6 @@ ul#nav li a:active {
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
-
-#resume {
-	background: #fafafa;
-	padding-top: 90px;
-	padding-bottom: 72px;
-	overflow: hidden;
-}
-
 #resume a,
 #resume a:visited {
 	color: #6bb2c5;

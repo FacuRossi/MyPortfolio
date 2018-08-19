@@ -46,11 +46,11 @@ jQuery(document).ready(function($) {
 		$('body').css({ width: $(window).width() })
 	})
 
-	$('#about').css({ height: $(window).height() })
-	$(window).on('resize', function() {
-		$('#about').css({ height: $(window).height() })
-		$('body').css({ width: $(window).width() })
-	})
+	// $('#about').css({ height: $(window).height() })
+	// $(window).on('resize', function() {
+	// 	$('#about').css({ height: $(window).height() })
+	// 	$('body').css({ width: $(window).width() })
+	// })
 
 	$('#portfolio').css({ height: $(window).height() })
 	$(window).on('resize', function() {

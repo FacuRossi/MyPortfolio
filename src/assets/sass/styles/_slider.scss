@@ -78,7 +78,7 @@
 	transform: translate(-50%, -50%);
 }
 
-.slider-content .inner button {
+.slider-content .inner a {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 	&:hover {
@@ -87,6 +87,10 @@
 		background-color: $background-ligthBlue !important;
 		color: $black-custom !important;
 	}
+}
+
+.hide-link {
+	display: none;
 }
 
 .btn-projects {
@@ -122,13 +126,6 @@
 	}
 }
 
-@media (max-width: 640px) {
-	.slider-wrapper,
-	.slide {
-		height: calc(80vh - 75px);
-	}
-}
-
 @media (max-height: 600px) {
 	.slider-content .inner h1 {
 		font-size: 32px;
@@ -148,7 +145,7 @@
 	opacity: 0;
 }
 
-.slide button {
+.slide a {
 	transition: all 0.3s ease;
 	-webkit-transform: translateY(20px);
 	transform: translateY(20px);
@@ -171,9 +168,9 @@
 .slide.animateIn.previous h1,
 .slide.current h1,
 .slide.animateIn.next h1,
-.slide.animateIn.previous button,
-.slide.current button,
-.slide.animateIn.next button,
+.slide.animateIn.previous a,
+.slide.current a,
+.slide.animateIn.next a,
 .slide.animateIn.previous p,
 .slide.current p,
 .slide.animateIn.next p {

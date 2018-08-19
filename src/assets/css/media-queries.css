@@ -92,7 +92,7 @@
 		width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #cc5200;
+		background-color: #303131;
 		position: relative;
 		border: none;
 		float: right;
@@ -164,6 +164,7 @@
 		margin: 12px 0;
 		line-height: 16px; /* reset line-height from 48px */
 		border: none;
+		color: #fafafa;
 	}
 
 	/* Header Styles
