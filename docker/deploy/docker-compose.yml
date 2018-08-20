@@ -1,0 +1,7 @@
+version: '2'
+services:
+    portfolio:
+        image: facurossi/portfolio:latest
+        restart: always
+        ports:
+            - '80:80'

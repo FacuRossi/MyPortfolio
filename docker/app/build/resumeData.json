@@ -1,0 +1,129 @@
+{
+	"main": {
+		"name": "Facundo Rossi",
+		"occupation":
+			"I'm a software engineer based in Córdoba, Argentina. I'm really enjoying the challenges that my profession involve, I take it as a great opportunity for continuing to grow as a person and professional.",
+		"image": "profilepic.jpg",
+		"bio": {
+			"parr1":
+				"Hi, this is Facundo. I'm a Software Engineer. I keen on each aspect of building apps from design, develop, test and deliver software in order to accomplish user needs.",
+			"parr2":
+				"I have worked on projects oriented towards the web environment and my skills are broad: as a backend developer, I’ve worked with Java, Spring Framework, EJB, JUnit and as a frontend, I have experience with Html, CSS, Sass,  JavaScript, and ReactJS.",
+			"parr3":
+				"Besides, I've got involved in DevOps and Continuous Integration tasks working with Jenkins, Docker, AWS, SonarQube for Manage product build lifecycle"
+		},
+		"email": "Rossifacundo94@gmail.com",
+		"phone": "+54 9 3406401924",
+		"address": {
+			"street": " 864 Independencia",
+			"city": " Córdoba",
+			"state": "Argentina",
+			"zip": "5000"
+		},
+		"resumedownload": "#",
+		"social": [
+			{
+				"name": "github",
+				"url": "https://github.com/FacuRossi",
+				"className": "fa fa-github"
+			},
+			{
+				"name": "linkedin",
+				"url": "http://www.linkedin.com/in/facundo-rossi",
+				"className": "fa fa-linkedin"
+			},
+			{
+				"name": "twitter",
+				"url": "https://twitter.com/FacuRossi4",
+				"className": "fa fa-twitter"
+			},
+			{
+				"name": "instagram",
+				"url": "https://www.instagram.com/facu.rossi_/",
+				"className": "fa fa-instagram"
+			}
+		]
+	},
+	"resume": {
+		"education": [
+			{
+				"school": "National Technological University",
+				"degree": "Information System Engineering",
+				"graduated": "December 2017",
+				"description":
+					"Completed and graduated with the Information Systems Engineer degree at the National Technological University of Córdoba, Argentina"
+			}
+		],
+		"work": [
+			{
+				"company": "SimTLiX S.R.L",
+				"title": "Software Developer",
+				"years": "May 2017 - present",
+				"description":
+					"Currently, I'm working as a Software Engineer, in charge of designing, developing and testing apps to accomplish user requirements. I'm participating in all project lifecycle."
+			}
+		],
+		"skills": [
+			{
+				"name": "ReactJs",
+				"level": "85%"
+			},
+			{
+				"name": "Java - Spring",
+				"level": "80%"
+			},
+			{
+				"name": "Web Development",
+				"level": "78%"
+			},
+			{
+				"name": "Continuous Integration",
+				"level": "70%"
+			}
+		]
+	},
+	"portfolio": {
+		"projects": [
+			{
+				"title": "OkTrueque",
+				"description":
+					"E-commerce platform where the users could change your things without money. It is developed on Java in spring framework. If you want to see more go to the demo. Also, I share the source code in this  ",
+				"button": "Demo",
+				"image": "fish.jpg",
+				"url":
+					"http://ec2-18-222-73-246.us-east-2.compute.amazonaws.com:8080",
+				"sourceLink": "https://github.com/oktrueque/oktrueque"
+			},
+			{
+				"title": "My-Portfolio",
+				"description":
+					"Single page application with a personal website/portfolio. It based on reactJs and It has responsive design.",
+				"button": "Source",
+				"image": "portfolio.jpg",
+				"url": "https://github.com/FacuRossi/MyPortfolio"
+			},
+			{
+				"title": "Flickr-Mobile",
+				"description":
+					"Hybrid application that offers the possibility to search Flickr users, viewing each of their directories with their photos. It also allows to see comments in them and share them by email. It provides a search system based on preferences and has international support.",
+				"button": "Source",
+				"image": "board.jpg",
+				"url": "https://github.com/FacuRossi/FlickrAppIonic"
+			}
+		]
+	},
+	"testimonials": {
+		"testimonials": [
+			{
+				"text":
+					"We used Henri to take images on our behalf for a recent multi-million pound project. He completely understood the brief and his shots were well taken, striking and wonderfully framed. Henri is a punctual, polite and trustworthy individual who I wouldn’t hesitate to recommend to others as we will definitely be using him for future projects. He is a pleasure to work with.",
+				"user": "Laura Evans"
+			},
+			{
+				"text":
+					"We approached Henri with an 11th hour request to photograph a building we had just re-branded. We were on a very tight deadline to produce the promotional material, ready for a launch party the following week. Henri was incredibly accommodating, and made himself available for the following day The photographs were excellent and met with the client’s approval, so much so that he also became the photographer for the launch event! Henri is highly personable and professional and I have no hesitation in recommending him.",
+				"user": "Steven Lauder (Director)"
+			}
+		]
+	}
+}
