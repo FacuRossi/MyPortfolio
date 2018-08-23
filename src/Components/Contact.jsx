@@ -49,7 +49,7 @@ class Contact extends Component {
 							name="contactForm">
 							<fieldset>
 								<div>
-									<button type="submit" class="submit">
+									<button type="submit" className="submit">
 										Send Email
 									</button>
 								</div>

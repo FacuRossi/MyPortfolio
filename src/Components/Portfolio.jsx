@@ -29,8 +29,9 @@ class Portfolio extends Component {
 									<a
 										href={item.sourceLink}
 										className={
-											item.title !== 'OkTrueque' &&
-											'hide-link'
+											item.title !== 'OkTrueque'
+												? 'hide-link'
+												: ''
 										}>
 										Link
 									</a>
