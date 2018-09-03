@@ -243,9 +243,9 @@
 
 .profile-pic {
 	position: relative;
-	width: 150px;
-	height: 150px;
-	border-radius: 30%;
+	width: 160px;
+	height: 160px;
+	border-radius: 15%;
 }
 
 .contact-details {
